@@ -1,3 +1,4 @@
-# freqNwords
-Frequencies of N-words in Google N-Gram lexicon
+# Documentation for online experiments
+
+Please visit : 
 
