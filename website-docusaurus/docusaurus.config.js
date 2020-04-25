@@ -1,7 +1,7 @@
 module.exports = {
   title: 'Online experiments',
   tagline: 'A curated doc site for online testing',
-  url: 'https://github.com/lpc-cnrs-amu',
+  url: 'https://lpc-cnrs-amu.github.io',
   baseUrl: '/',
   favicon: 'img/favicon.ico',
   organizationName: 'lpc-cnrs-amu', // Usually your GitHub org/user name.
