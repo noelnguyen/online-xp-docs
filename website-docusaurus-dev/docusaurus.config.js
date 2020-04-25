@@ -1,16 +1,16 @@
 module.exports = {
-  title: 'Online experiments',
-  tagline: 'A curated doc site for online testing',
-  url: 'https://lpc-cnrs-amu.github.io',
-  baseUrl: '/online-xp-docs/',
+  title: 'My Site',
+  tagline: 'The tagline of my site',
+  url: 'https://your-docusaurus-test-site.com',
+  baseUrl: '/',
   favicon: 'img/favicon.ico',
-  organizationName: 'lpc-cnrs-amu', // Usually your GitHub org/user name.
-  projectName: 'online-xp-docs', // Usually your repo name.
+  organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'Online experiments',
+      title: 'My Site',
       logo: {
-        alt: 'Online experiments Logo',
+        alt: 'My Site Logo',
         src: 'img/logo.svg',
       },
       links: [
@@ -22,7 +22,7 @@ module.exports = {
         },
         {to: 'blog', label: 'Blog', position: 'left'},
         {
-          href: 'https://github.com/lpc-cnrs-amu/online-xp-docs',
+          href: 'https://github.com/facebook/docusaurus',
           label: 'GitHub',
           position: 'right',
         },
@@ -85,7 +85,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/lpc-cnrs-amu/online-xp-docs/edit/master/website/',
+            'https://github.com/facebook/docusaurus/edit/master/website/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
