@@ -1,22 +1,19 @@
 # Documentation for online experiments
 
-Please visit : 
+Avalable at : https://docs.ilcb-online-test.net
 
-Success! Created website-docusaurus
-Inside that directory, you can run several commands:
 
-  yarn start
-    Starts the development server.
+Ressources for exeriment building:
 
-  yarn build
-    Bundles the app into static files for production.
+JS-Psych
+OSweb
+lab.js
 
-  yarn deploy
-    Publish website to GitHub pages.
+Ressources for experiment management:
 
-We suggest that you begin by typing:
+JATOS
+Pavlova
 
-  cd website-docusaurus
-  yarn start
+
   
   
