@@ -85,7 +85,7 @@ module.exports = {
         docs: {
           //routeBasePath: '', // TODO : should be empty as the docs says
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl: 'https://github.com/lpc-cnrs-amu/online-xp-docs/edit/gh-pages/',
+          editUrl: 'https://github.com/lpc-cnrs-amu/online-xp-docs/blob/master/website-docusaurus',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
