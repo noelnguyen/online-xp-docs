@@ -5,7 +5,7 @@ Avalable at : https://docs.ilcb-online-test.net
 
 ## Resources
 
-Classical PHP/MySQL/JavaScript experiments can be written from scratch, but there are many tools, libraries or all-in-one solutions to help building, managing and promoting an online experiment.
+Classical JavaScript experiments can be written from scratch, but there are many tools, libraries or all-in-one solutions to help building, managing and promoting an online experiment.
 
 _The list below reflects the knowledge of the researchers and IT support staff involved in the ILCB server initiative._
 
