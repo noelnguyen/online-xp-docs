@@ -2,7 +2,7 @@ module.exports = {
   title: 'Online experiments',
   tagline: 'A curated doc site for online testing',
   url: 'https://lpc-cnrs-amu.github.io',
-  baseUrl: '/online-xp-docs/',
+  baseUrl: '/', // use "/online-xp-docs/" on github, and "/" on ILCB
   favicon: 'img/favicon.ico',
   organizationName: 'lpc-cnrs-amu', // Usually your GitHub org/user name.
   projectName: 'online-xp-docs', // Usually your repo name.
@@ -15,7 +15,7 @@ module.exports = {
       },
       links: [
         {
-          to: 'docs/doc1',
+          to: 'docs/introduction',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
@@ -36,11 +36,11 @@ module.exports = {
           items: [
             {
               label: 'Style Guide',
-              to: 'docs/doc1',
+              to: 'docs/docusaurus/doc1',
             },
             {
               label: 'Second Doc',
-              to: 'docs/doc2',
+              to: 'docs/docusaurus/doc2',
             },
           ],
         },
@@ -83,9 +83,9 @@ module.exports = {
       '@docusaurus/preset-classic',
       {
         docs: {
+          //routeBasePath: '', // TODO : should be empty as the docs says
           sidebarPath: require.resolve('./sidebars.js'),
-          editUrl:
-            'https://github.com/lpc-cnrs-amu/online-xp-docs/edit/master/website/',
+          editUrl: 'https://github.com/lpc-cnrs-amu/online-xp-docs/edit/gh-pages/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
