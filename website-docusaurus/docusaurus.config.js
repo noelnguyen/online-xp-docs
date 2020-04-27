@@ -35,25 +35,8 @@ module.exports = {
           title: 'Docs',
           items: [
             {
-              label: 'Style Guide',
-              to: 'docs/docusaurus/doc1',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/docusaurus/doc2',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
+              label: 'Introduction',
+              to: 'docs/introduction',
             },
           ],
         },
@@ -61,21 +44,17 @@ module.exports = {
           title: 'Social',
           items: [
             {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
               label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
+              href: 'https://github.com/lpc-cnrs-amu',
             },
             {
               label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
+              href: 'https://twitter.com/ContactBlri',
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} ILCB experiment server. Built with Docusaurus.`,
     },
   },
   presets: [

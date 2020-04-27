@@ -1,7 +1,20 @@
 ---
-id: doc1
+id: docusaurusstyle
 title: Style Guide
 sidebar_label: Style Guide
+---
+
+### mermaid
+
+id1(Start)-->|qsd|id2(Stop);
+style id1 fill:#ddd,stroke:#333,stroke-width:2px;
+style id2 fill:#ddd,stroke:#333,stroke-width:2px;
+linkStyle 0 fill:none,stroke:red,stroke-width:1px;
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. In ac euismod odio, eu consequat dui. Nullam molestie consectetur risus id imperdiet. Proin sodales ornare turpis, non mollis massa ultricies id. Nam at nibh scelerisque, feugiat ante non, dapibus tortor. Vivamus volutpat diam quis tellus elementum bibendum. Praesent semper gravida velit quis aliquam. Etiam in cursus neque. Nam lectus ligula, malesuada et mauris a, bibendum faucibus mi. Phasellus ut interdum felis. Phasellus in odio pulvinar, porttitor urna eget, fringilla lectus. Aliquam sollicitudin est eros. Mauris consectetur quam vitae mauris interdum hendrerit. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+
+
+
 ---
 
 You can write content using [GitHub-flavored Markdown syntax](https://github.github.com/gfm/).
@@ -200,3 +213,28 @@ This is a caution
 This is a warning
 
 :::
+
+---
+
+## Links to documents
+
+This is a link to [another document.](doc3.md) This is a link to an [external page.](http://www.example.com)
+
+
+___
+
+
+## MDX
+
+You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+
+export const Highlight = ({children, color}) => ( <span style={{
+      backgroundColor: color,
+      borderRadius: '2px',
+      color: '#fff',
+      padding: '0.2rem',
+    }}> {children} </span> );
+
+<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+
+I can write **Markdown** alongside my _JSX_!
